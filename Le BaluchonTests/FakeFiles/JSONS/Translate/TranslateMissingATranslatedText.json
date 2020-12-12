@@ -1,0 +1,13 @@
+{
+    "data": {
+        "translations": [
+            {
+                "translatedText": "Good morning Mister President",
+                "detectedSourceLanguage": "fr"
+            },
+            {
+                "detectedSourceLanguage": "fr"
+            }
+        ]
+    }
+}

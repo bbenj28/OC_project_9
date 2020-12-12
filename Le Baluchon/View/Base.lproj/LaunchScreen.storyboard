@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hKn-fw-0Sz">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Le Baluchon-->
+        <scene sceneID="0Vc-J0-7Zg">
+            <objects>
+                <viewController id="hKn-fw-0Sz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2TJ-AH-fXk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pgg-HO-G0V">
+                                <rect key="frame" x="0.0" y="74" width="414" height="788"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Le Baluchon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcH-ix-6oe">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="55.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="48"/>
+                                        <color key="textColor" red="0.64224278930000001" green="0.56775325539999999" blue="0.55363708730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIr-HT-NB6">
+                                        <rect key="frame" x="0.0" y="55.666666666666686" width="414" height="732.33333333333326"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="zXz-Us-Gr1">
+                                                <rect key="frame" x="-217.33333333333334" y="-196" width="496.66666666666674" height="1344"/>
+                                                <color key="tintColor" red="0.79724502559999999" green="0.8093257546" blue="0.83619004490000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="F92-j5-7SC">
+                                                <rect key="frame" x="-62" y="99.666666666666686" width="248.33333333333334" height="672"/>
+                                                <color key="tintColor" red="0.89903038739999996" green="0.90609061719999995" blue="0.91271251440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="YTR-iL-eEk">
+                                                <rect key="frame" x="41.333333333333343" y="277.66666666666663" width="83" height="268.66666666666663"/>
+                                                <color key="tintColor" red="0.958674252" green="0.96798926590000001" blue="0.96453565360000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="money" translatesAutoresizingMaskIntoConstraints="NO" id="r4p-XI-ig7">
+                                                <rect key="frame" x="0.3333333333333286" y="66.333333333333343" width="165" height="197.00000000000003"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="weather" translatesAutoresizingMaskIntoConstraints="NO" id="0KJ-di-g2A">
+                                                <rect key="frame" x="186.66666666666663" y="414.33333333333343" width="165" height="196.66666666666669"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="translation" translatesAutoresizingMaskIntoConstraints="NO" id="tt8-D2-XTF">
+                                                <rect key="frame" x="238" y="103" width="165.66666666666663" height="197"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="r4p-XI-ig7" firstAttribute="centerX" secondItem="cIr-HT-NB6" secondAttribute="centerX" multiplier="0.4" id="67m-z8-bmV"/>
+                                            <constraint firstItem="tt8-D2-XTF" firstAttribute="centerX" secondItem="cIr-HT-NB6" secondAttribute="centerX" multiplier="1.55" id="CWb-Ou-eHc"/>
+                                            <constraint firstItem="tt8-D2-XTF" firstAttribute="centerY" secondItem="cIr-HT-NB6" secondAttribute="centerY" multiplier="0.55" id="LTj-JA-jF3"/>
+                                            <constraint firstItem="zXz-Us-Gr1" firstAttribute="centerX" secondItem="cIr-HT-NB6" secondAttribute="centerX" multiplier="0.15" id="MCG-YQ-6PS"/>
+                                            <constraint firstItem="YTR-iL-eEk" firstAttribute="centerY" secondItem="cIr-HT-NB6" secondAttribute="centerY" multiplier="1.125" id="Zuy-fh-cRF"/>
+                                            <constraint firstItem="r4p-XI-ig7" firstAttribute="centerY" secondItem="cIr-HT-NB6" secondAttribute="centerY" multiplier="0.45" id="bfx-eB-wjx"/>
+                                            <constraint firstItem="zXz-Us-Gr1" firstAttribute="centerY" secondItem="cIr-HT-NB6" secondAttribute="centerY" multiplier="1.3" id="hA9-Ee-WfG"/>
+                                            <constraint firstItem="0KJ-di-g2A" firstAttribute="centerX" secondItem="cIr-HT-NB6" secondAttribute="centerX" multiplier="1.3" id="kDh-yP-oCq"/>
+                                            <constraint firstItem="0KJ-di-g2A" firstAttribute="centerY" secondItem="cIr-HT-NB6" secondAttribute="centerY" multiplier="1.4" id="nMZ-zA-Zr2"/>
+                                            <constraint firstItem="F92-j5-7SC" firstAttribute="centerX" secondItem="cIr-HT-NB6" secondAttribute="centerX" multiplier="0.3" id="qXh-G2-EhL"/>
+                                            <constraint firstItem="F92-j5-7SC" firstAttribute="centerY" secondItem="cIr-HT-NB6" secondAttribute="centerY" multiplier="1.19" id="vMD-mc-hnU"/>
+                                            <constraint firstItem="YTR-iL-eEk" firstAttribute="centerX" secondItem="cIr-HT-NB6" secondAttribute="centerX" multiplier="0.4" id="ytu-Sx-Go2"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AxG-OO-MSH"/>
+                        <color key="backgroundColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0KJ-di-g2A" firstAttribute="height" secondItem="2TJ-AH-fXk" secondAttribute="height" multiplier="0.219308" id="44B-qi-MXS"/>
+                            <constraint firstItem="tt8-D2-XTF" firstAttribute="width" secondItem="2TJ-AH-fXk" secondAttribute="width" multiplier="0.399758" id="F1N-XZ-yyp"/>
+                            <constraint firstItem="YTR-iL-eEk" firstAttribute="height" secondItem="2TJ-AH-fXk" secondAttribute="height" multiplier="0.3" id="Hnh-Fu-qz0"/>
+                            <constraint firstItem="F92-j5-7SC" firstAttribute="width" secondItem="2TJ-AH-fXk" secondAttribute="width" multiplier="0.6" id="IGB-EE-SMs"/>
+                            <constraint firstItem="tt8-D2-XTF" firstAttribute="height" secondItem="2TJ-AH-fXk" secondAttribute="height" multiplier="0.219866" id="PnC-YC-K7b"/>
+                            <constraint firstItem="YTR-iL-eEk" firstAttribute="width" secondItem="2TJ-AH-fXk" secondAttribute="width" multiplier="0.2" id="Rbj-Fd-yix"/>
+                            <constraint firstItem="r4p-XI-ig7" firstAttribute="height" secondItem="2TJ-AH-fXk" secondAttribute="height" multiplier="0.219866" id="WJt-H3-Jgc"/>
+                            <constraint firstItem="pgg-HO-G0V" firstAttribute="top" secondItem="AxG-OO-MSH" secondAttribute="top" constant="30" id="XfS-Jp-nk0"/>
+                            <constraint firstItem="F92-j5-7SC" firstAttribute="height" secondItem="2TJ-AH-fXk" secondAttribute="height" multiplier="0.75" id="fCP-A2-k93"/>
+                            <constraint firstItem="zXz-Us-Gr1" firstAttribute="height" secondItem="2TJ-AH-fXk" secondAttribute="height" multiplier="1.5" id="iJ9-OO-Ieu"/>
+                            <constraint firstItem="pgg-HO-G0V" firstAttribute="trailing" secondItem="AxG-OO-MSH" secondAttribute="trailing" id="inx-fb-pcm"/>
+                            <constraint firstItem="pgg-HO-G0V" firstAttribute="bottom" secondItem="AxG-OO-MSH" secondAttribute="bottom" id="jmC-ka-w20"/>
+                            <constraint firstItem="pgg-HO-G0V" firstAttribute="leading" secondItem="AxG-OO-MSH" secondAttribute="leading" id="nsl-p3-2pv"/>
+                            <constraint firstItem="zXz-Us-Gr1" firstAttribute="width" secondItem="2TJ-AH-fXk" secondAttribute="width" multiplier="1.2" id="ntl-g7-MqL"/>
+                            <constraint firstItem="0KJ-di-g2A" firstAttribute="width" secondItem="2TJ-AH-fXk" secondAttribute="width" multiplier="0.398551" id="yO2-nf-ROD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Le Baluchon" id="CKM-ca-A3t">
+                        <barButtonItem key="backBarButtonItem" title="menu principal" id="wTE-26-zfy"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7R-0C-IAI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-794.20289855072474" y="401.78571428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="location" width="13" height="13"/>
+        <image name="money" width="165" height="197"/>
+        <image name="translation" width="165.66667175292969" height="197"/>
+        <image name="weather" width="165" height="196.66667175292969"/>
+    </resources>
+</document>

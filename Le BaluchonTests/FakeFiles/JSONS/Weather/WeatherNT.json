@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -0.33,
+        "lat": 46.33
+    },
+    "weather": [
+        {
+            "id": 511,
+            "main": "Snow",
+            "description": "snow",
+            "icon": ""
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 0,
+        "feels_like": 0,
+        "temp_min": 0,
+        "temp_max": 0,
+        "pressure": 1026,
+        "humidity": 71
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.79,
+        "deg": 103,
+        "gust": 3.58
+    },
+    "clouds": {
+        "all": 13
+    },
+    "dt": 1605617148,
+    "sys": {
+        "type": 3,
+        "id": 2011616,
+        "country": "FR",
+        "sunrise": 1605596766,
+        "sunset": 1605630414
+    },
+    "timezone": 3600,
+    "id": 2990354,
+    "name": "Arrondissement de Niort",
+    "cod": 200
+}
